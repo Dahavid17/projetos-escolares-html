@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../xampp/htdocs/meusite.com.br/Atividades PHP"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}
