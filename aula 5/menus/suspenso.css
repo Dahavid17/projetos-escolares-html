@@ -1,0 +1,51 @@
+/* estilo do menu principal */
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #333;
+}
+
+ul.menu > li {
+    display: inline-block; /* horizontal */
+    position: relative;    /* importante para o submenu */
+}
+/* estilo dos links do menu */
+ul.menu > li > a {
+    display: block;
+    padding: 14px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+/* efeito hover */
+ul.menu > li > a:hover {
+    background: #111;
+}
+
+/* estilo do submenu */
+ul.sub {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    background: #444;
+    display: none;  /* tem que colocar isso para ficar escondido ate colocar o mouse em cima. (NAO ESQUECER SUA FUNÇÃO!) */
+    margin: 0;
+    padding: 0;
+    min-width: 150px;
+}
+
+ul.sub li a {
+    display: block;
+    padding: 12px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.sub li a:hover {
+    background: #222;
+}
+
+/* aparecer quando  */
+ul.menu li:hover > ul.sub {
+    display: block;
+}
