@@ -90,3 +90,48 @@ h2 {
 .alinhar-baseline{
   align-items: baseline; /* alinha os itens pela linha de base do texto */
 }
+.alinhar-conteudo{
+  align-content: center  ;
+  height: 600px;
+}
+.alinhar-conteudo .caixa{
+  flex:0 0 30%
+}
+.caixa{
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+.orem1{
+  order: 1;
+}
+.ordem2{
+  order: 2;
+}
+.ordem3{
+  order: 3;
+}
+.exemplo-grow .item-flex{
+  flex-basis: 100px;
+}
+.crescer1{
+  flex-grow: 1;
+}
+.crescer2{
+  flex-grow: 2;
+}
+.alinhar-items-individuais .container-flex{
+  height: 300px; /* altura fixa para visualizar o alinhamento */
+}
+.self-inicio{
+  align-self: start;
+}
+.self-centro{
+  align-self: center;
+}
+.self-fim{
+  align-self: end;
+}
+.menu-nav{
+  background-color: rgb(333);
+}
